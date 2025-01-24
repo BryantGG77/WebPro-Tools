@@ -34,10 +34,10 @@ a {
     position: fixed;
     z-index: 1000;
     right: 25px;
-    bottom: 110px;
-    background-color: #b1a492;
-    width: 64px;
-    height: 64px;
+    bottom: 200px;
+    background-color: hsl(35, 17%, 63%);
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
     display: flex;
     color: white;
@@ -46,6 +46,11 @@ a {
     text-align: center;
     transition: all .2s;
     cursor: pointer;
+}
+
+.ir_arriba_boton__imagen {
+    width: 35px;
+    height: 35px;
 }
 
 #ir_arriba_boton:hover {
@@ -74,6 +79,19 @@ a {
 .mostrar {
     opacity: 1;
     visibility: visible;
+}
+
+@media (min-width: 1024px) {
+    #ir_arriba_boton {
+        bottom: 110px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .ir_arriba_boton__imagen {
+        width: 54px;
+        height: 54px;
+    }
 }
 
 /* HEADER */
