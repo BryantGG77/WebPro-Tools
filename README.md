@@ -1,4 +1,4 @@
-# 🖥️ Landing Page SPA con Next.js
+# 🖥️ Landing Page SPA
 
 Landing Page desarrollada como una **Single Page Application (SPA)**, utilizando HTML, CSS Y JavaScript para generar un diseño responsivo y minimalista con animaciones fluidas y una experiencia de usuario atractiva.
 
