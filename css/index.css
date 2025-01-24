@@ -301,6 +301,12 @@ a {
     outline: none;
 }
 
+.contacto__form__button.enviado {
+    background-color: green;
+    color: white;
+    cursor: default;
+}
+
 .contacto__form button {
     padding: 10px;
     border-radius: 10px;
